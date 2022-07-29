@@ -72,7 +72,7 @@ const HomeAuth = () => {
 
   return (
     <div className="homeAuth_container">
-      <div className="homeAuth_header">Recommended Blogs</div>
+      <div className="homeAuth_header">Blogs on the Blockchain</div>
       <div className="homeAuth_blogs">
         {blogsContent &&
           blogsContent.map((blog, i) => {

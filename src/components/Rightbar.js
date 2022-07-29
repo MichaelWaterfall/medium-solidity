@@ -23,7 +23,8 @@ const Rightbar = () => {
       <Input label="Search" name="Search" prefixIcon="search"></Input>
 
       <div className="trends">
-        What are we reading Today
+        <a href="https://mumbaifaucet.com/">Fund your wallet using this link and start writing some blogs.</a>
+        {'\nWhat are we reading Today'}
         {trends.map((e, i) => {
           return (
             <div key={i} className="trend">
