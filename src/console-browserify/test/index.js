@@ -1,4 +1,5 @@
-var console = require("../index")
+var console = require("./index.js")
+
 var test = require("tape")
 
 if (typeof window !== "undefined" && !window.JSON) {
