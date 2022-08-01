@@ -7,7 +7,7 @@ import HomeAuth from "./pages/HomeAuth";
 import Rightbar from "./components/Rightbar";
 import "./App.css";
 import { ConnectButton } from "web3uikit";
-import logo from "./images/medium.png";
+import logo from "../images/medium.png";
 import { useMoralis } from "react-moralis";
 
 const App = () => {
