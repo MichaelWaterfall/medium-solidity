@@ -17,7 +17,7 @@ const Sidebar = () => {
   return (
     <>
       <div className="siderContent">
-        <img className="logo" src={logo}></img>
+        <img className="logo" src={logo} alt="logo"></img>
         <div className="menu">
           <Link to="/" className="link">
             <div className="menuItems">

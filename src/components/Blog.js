@@ -23,7 +23,9 @@ const Blog = () => {
     if(!title || !text) {
       fetchBlogsContent();
     }
-  }, [text, title]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [text, title,]);
+  
 
   return (
     <div className="singleBlog">

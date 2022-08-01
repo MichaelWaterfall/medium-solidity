@@ -67,7 +67,8 @@ const HomeAuth = () => {
     if (!blogs) {
       fetchAllNfts();
     }
-  }, [blogs]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [blogs, fetchBlogsContent]);
 
 
   return (
