@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./MyBlogs.css";
 import axios from "axios";
-import BlogCard from "../components/BlogCard";
+import BlogCard from "./components/BlogCard";
 import { Button } from "web3uikit";
 import { useNavigate } from "react-router-dom";
 import { useMoralisWeb3Api, useMoralis } from "react-moralis";
