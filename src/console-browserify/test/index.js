@@ -1,4 +1,4 @@
-var console = require("./index");
+var console = require("/Users/Tarzan/Desktop/Medium/src/index");
 
 var test = require("tape")
 
