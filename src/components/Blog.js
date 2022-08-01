@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./Blog.css";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import { Url } from "./constants";
+import { Url } from "../config/constants.js";
 
 
 const Blog = () => {
