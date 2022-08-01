@@ -1,4 +1,4 @@
-var console = require("../index");
+var console = require("./index");
 
 var test = require("tape")
 
