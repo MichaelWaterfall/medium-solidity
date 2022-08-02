@@ -56,7 +56,7 @@ const HomeAuth = () => {
     setBlogsContent(contentBlog);
 
   };
-
+//.
   useEffect(() => {
     if (blogs && !blogsContent) {
       fetchBlogsContent();
