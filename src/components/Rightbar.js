@@ -4,16 +4,16 @@ import { Input } from "web3uikit";
 const Rightbar = () => {
   const trends = [
     {
-      text: "Real Performance Paradox",
+      text: "",
     },
     {
-      text: "The Email Scam That Nearly Worked On Me",
+      text: "",
     },
     {
-      text: "The forgotten benefits of “low tech” user interfaces",
+      text: "",
     },
     {
-      text: "Become a Web3 Developer with just simple JS...",
+      text: "",
     },
   ];
 
@@ -24,7 +24,7 @@ const Rightbar = () => {
 
       <div className="trends">
         <a href="https://mumbaifaucet.com/">Fund your wallet using this link and start writing some blogs.</a>
-        {'\nWhat are we reading Today'}
+        {''}
         {trends.map((e, i) => {
           return (
             <div key={i} className="trend">
