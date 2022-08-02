@@ -1,3 +1,4 @@
+import console from 'console';
 import { useState } from "react";
 import "./NewStory.css"
 import {
